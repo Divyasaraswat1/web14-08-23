@@ -1,0 +1,372 @@
+.content-text h1{
+    margin: 1%;
+    text-align: center;
+    padding-left: 1%;
+    box-sizing: border-box;
+    font-size: 20ch;
+    font-weight: 100%;
+    list-style-type: armenian;
+    text-decoration: violet;
+    text-decoration-color: black;
+    text-size-adjust: 100%;
+
+
+}
+.solu{
+    margin: 2%;
+    padding: 0%;
+
+}
+.solu img{
+    margin: 5%;
+    padding: 10%;
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+}
+.solu h1{
+    margin: 0%;
+    padding: 5%;
+    text-align: center;
+    text-decoration-color: blue;
+
+    font-size:xx-large;
+}
+.solu p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: xx-large;
+}
+
+.solu1{
+    margin: 2%;
+    padding: 4%;
+
+}
+.solu1 img{
+    margin: 3%;
+    padding: 2%;
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+.solu1 h1{
+    margin: 2%;
+    padding: 2%;
+    text-align: right;
+    font-size: xx-large;
+    margin-left: 50%;
+}
+.solu1 p{
+    margin: 2%;
+    padding: 2%;
+    text-align: right;
+    font-size: xx-large;
+}
+.solu2{
+    margin: 4%;
+    padding: 5%;
+}
+.solu2 img{
+    margin: 3%;
+    padding: 2%;
+    float:right;
+    max-width: 100%;
+    max-height: 100%;
+}
+.solu2 h1{
+    margin: 2%;
+    padding: 2%;
+    text-align: left;
+    font-size: xx-large;
+}
+.solu2 p{
+    margin: 2%;
+    padding: 2%;
+    text-align: left;
+    font-size: xx-large;
+}
+.btn{
+   
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: xx-large;
+  }
+  
+  
+.btn:hover{
+    color: aqua;
+    border-radius: 5%;
+    box-sizing: border-box;
+    background-color: rgb(201, 43, 80);
+}
+
+/* Custom styling for the horizontal line */
+.horizontal-line {
+    width: 100%; /* Make the line span the full width of its container */
+    height: 2px; /* Set the height of the line */
+    background-color: #4433b4; /* Change the color of the line */
+    margin: 20px 0; /* Add spacing above and below the line */
+  }
+
+  /* .career{
+    margin: 2%;
+    padding: 2%;
+
+  }
+  .career img{
+    margin: 0%;
+    padding: 0%;
+    float: center;
+    
+    text-align: justify;
+
+  }
+.career h1{
+    text-align: justify;
+    font-size: xx-large;
+}  
+.career p{
+    text-align: justify;
+    font-size: x-large;
+}
+.career1{
+    margin: 2%;
+    padding: 2%;
+}
+.career1 img{
+margin: 0%;
+padding: 0%;
+float: center;
+text-align: center;
+padding-left: 50%;
+padding-top: -5%;
+padding-bottom: -5%;
+margin-bottom: -10%;
+}
+
+
+ */
+
+
+
+.career{
+    padding: 100px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .career {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .career img {
+    max-width: 100%;
+    border-bottom: 100%;
+    float: right;
+  }
+  
+  
+  .career h1{
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .career p {
+    color: #777;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 500px) {
+    .career {
+        display: block;
+    }
+  }
+  
+.hello h1{
+    margin: 90px;
+    padding: 10px;
+    text-align: center;
+}  
+.btn{
+    margin-left: 48%;
+    
+}
+.last{
+    margin: 100px;
+    padding: 20px;
+}
+.last h2{
+    text-align: left;
+    font-size: xx-large;
+}
+.last p{
+    text-align: left;
+    font-size: xx-large;
+}
+/* .first{
+    margin: 100px;
+    padding: 20px;
+} */
+
+.first h2{
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 75%;
+    margin-top: -15%;
+}
+.first p{
+    text-align: right;
+    font-size: xx-large;
+    margin-top: 1%;
+}
+.core{
+    margin: 2%;
+    padding: 2%;
+
+}
+.core h1{
+    font-size: xx-large;
+    text-align: center;
+    font-size: 15ch;
+}
+.core img{
+    margin: 2%;
+    padding: 2%;
+    padding-left: 25%;
+    text-align: center;
+}
+
+
+footer{
+    background: #f1f1f1;
+    padding: 50px 0;
+  }
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .logo{
+    width: 180px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #fc5c65;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+    text-decoration: underline;
+    text-decoration-color: #fc5c65;
+  }
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  /* .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  } */
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width:960px) {
+    .footer-container{
+      max-width: 600px;
+    }
+    .right-col{
+      width: 100%;
+      margin-bottom: 60px;
+      
+    }
+  
+    .left-col{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  
+  @media screen and (max-width:700px){
+    .btn{
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+      }
+  }
+  
+  .footer h2{
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+  }
+  
+  
+   

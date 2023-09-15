@@ -1,0 +1,286 @@
+.content-items img{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: block
+  }
+  .content-text{
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    font-size: 50px;
+  }
+  .img{
+    
+      display: block;
+      height: 400px;
+      max-width: 100%;
+      margin: auto;
+      object-fit: cover;
+      object-position: right;
+    
+  }
+  .content-text h1{
+    margin-top: 20%;
+    margin-left: 38%;
+    padding: 40px;
+    text-align: center;
+    font-size: 8ch;
+  }
+  
+  .img-desc{
+    margin: 0%;
+    padding: 10px;
+    color: #fc5c65;
+    size-adjust: 10%;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;600&display=swap');
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Yaldevi', sans-serif;
+  }
+  .nav{
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    overflow: auto;
+  }
+  ul{
+    margin: 2%;
+    padding: 2%;
+    list-style: none;
+    margin-left: 20%;
+  }
+  li{
+    float: left;
+  }
+  a:link{
+    color: black;
+    width: 125px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Verdana;
+  }
+  a:hover{
+    background-color: orangered;
+  }
+  .net{
+    margin: 70px;
+    padding: 10px;
+
+  }
+  .net h2{
+    text-align: center;
+    font-size: 8ch;
+  }
+  .net p{
+    text-align: center;
+    font-size: 4ch;
+  }
+  .images{
+    margin: 10px;
+    padding: 30px;
+
+  }
+  .images img{
+    margin: 8%;
+    padding: 2%;
+    float: right;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+
+    
+  }
+  .images h1{
+    text-align: left;
+    font-size: 7ch;
+    margin-left: 4%;
+    padding: 2%;
+  }
+  .images p{
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 4%;
+    padding: 2%;
+  }
+  .image1{
+    margin-left: 10%;
+    padding: 5%;
+  }
+  .image1 h1{
+    text-align: right;
+    font-size: 7ch;
+    margin-right: 8%;
+    padding-right: 7%;
+    margin-top: -10%;
+    
+  }
+  .image1 p{
+    text-align: right;
+    font-size: xx-large;
+    margin-right: 4%;
+    padding: 2%;
+  }
+  .image2{
+    margin-left: 10%;
+    padding: 5%;
+  }
+  .image2 h1{
+    text-align: right;
+    font-size: 7ch;
+    margin-right: 8%;
+    padding-right: 7%;
+    margin-top: -7%;
+    
+  }
+  .image2 p{
+    text-align: right;
+    font-size: xx-large;
+    margin-right: 4%;
+    padding: 2%;
+  }
+  
+footer{
+  background: #f1f1f1;
+  padding: 50px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 180px;
+}
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+}
+
+.right-col h1{
+  font-size: 26px;
+  text-decoration: underline;
+  text-decoration-color: #fc5c65;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background:lightcoral;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+/* .btn{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #fc5c65;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+} */
+
+.btn:hover{
+  opacity: .7;
+}
+
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+    text-decoration: underline;
+    text-decoration-color: #033747;
+    font-style: normal;
+    color: #fc5c65;
+    
+  }
+  .right-col li a{
+    margin: 0%;
+    padding: 5px;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:700px){
+  .btn{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+}
+
+.footer h2{
+  margin: 0%;
+  padding: 0;
+  text-align: center;
+}
+
+
+ 
